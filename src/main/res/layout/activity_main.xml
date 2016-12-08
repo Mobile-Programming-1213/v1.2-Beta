@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context="ssjk.cafein.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#663301"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="fill_parent"
+            >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:background = "@drawable/ic_cafein_main"
+                android:textSize="30sp"
+                android:textColor="#ffffff"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/menu"/>
+
+        <Button
+            android:id="@+id/btn_search"
+            android:title="Search Title"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="10dp"
+            android:showAsAction="collapseActionView|ifRoom"
+            android:actionViewClass="android.widget.SearchView"
+            android:background="@drawable/search"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="155dp"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:textSize="10sp"
+            android:text="CAFE"
+            android:textStyle="bold"
+            android:drawableTop="@drawable/ic_button_cafe" />
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/btn_toCoffee"
+            android:layout_width="155dp"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:textSize="10sp"
+            android:text="COFFEE"
+            android:drawableTop="@drawable/ic_button_coffee"
+            />
+    </LinearLayout>
+
+    <ScrollView
+        android:id = "@+id/mainscroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f4f4f4"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/btn_Azit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AZIT"/>
+            <Button
+                android:id="@+id/btn_BongJuice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bong Juice"/>
+            <Button
+                android:id="@+id/btn_Botong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Botong Cafe"/>
+            <Button
+                android:id="@+id/btn_CafeDan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cafe Dan"/>
+            <Button
+                android:id="@+id/btn_CafeHoney"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cafe Honey"/>
+            <Button
+                android:id="@+id/btn_CafeLondon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cafe London"/>
+            <Button
+                android:id="@+id/btn_Coffeeban"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COFFEE BANHADA"/>
+            <Button
+                android:id="@+id/btn_Coffeeman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="COFFEE MAN"/>
+            <Button
+                android:id="@+id/btn_Creative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CREATIVE COFFEE"/>
+            <Button
+                android:id="@+id/btn_Hippo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HIPPO COFFEE"/>
+            <Button
+                android:id="@+id/btn_Hollys"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hollys"/>
+            <Button
+                android:id="@+id/btn_Juicy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Juicy"/>
+            <Button
+                android:id="@+id/btn_LazyGeek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LazyGeek"/>
+            <Button
+                android:id="@+id/btn_Soleil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Soleil"/>
+            <Button
+                android:id="@+id/btn_TakeBean"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TAKEBEAN"/>
+            <Button
+                android:id="@+id/btn_TomNToms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tom N Toms"/>
+            <Button
+                android:id="@+id/btn_Trianon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TRIANON"/>
+            <Button
+                android:id="@+id/btn_Rehoboth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rehoboth"/>
+            <Button
+                android:id="@+id/btn_WafflePan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Waffle Pan"/>
+            <Button
+                android:id="@+id/btn_7gram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="7GRAM"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
